@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+nav {
+    height: 51px;
+    background-color: #282A35;
+    display: flex; 
+    align-items: center; 
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+
+li a {
+    text-decoration: none;
+    padding: 18px;
+    color: white;
+    font-size: 12px;
+}
+
+li a:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
